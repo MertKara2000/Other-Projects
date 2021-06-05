@@ -4,8 +4,8 @@ driver = webdriver.Chrome()
 driver.get('https://www.instagram.com') #Go to instagram login page.
 sleep(2) #Wait for loading page.
 
-username = driver.find_element_by_name('username').send_keys('damdanaka') 
-password = driver.find_element_by_name('password').send_keys('arzgrs43')
+username = driver.find_element_by_name('username').send_keys('username here') 
+password = driver.find_element_by_name('password').send_keys('password here')
 girisbutton = driver.find_element_by_xpath('//button[@type="submit"]').click() #Log-in button
 sleep(2) 
 
